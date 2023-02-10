@@ -7,7 +7,7 @@ const App = () => {
     const didCrash = await Crashes.hasCrashedInLastSession();
 
     if (didCrash) {
-      Alert.alert('Sorry about the crash, we are working for a solution');
+      Alert.alert('Sorry about the crash, we are working for solutions');
     }
   };
 
