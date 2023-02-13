@@ -93,7 +93,7 @@ const App = () => {
           onChangeText={timeInYears => setState({...state, timeInYears})}
         />
         <Button
-          title="Calculate inflation"
+          title="Calc inflation"
           onPress={() => {
             calculate();
             Analytics.trackEvent('Calculate_inflation', {
