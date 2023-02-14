@@ -141,6 +141,7 @@ const styles = StyleSheet.create({
   },
   label: {
     marginTop: 10,
+    color: 'red',
   },
   smallLabel: {
     marginTop: -8,
